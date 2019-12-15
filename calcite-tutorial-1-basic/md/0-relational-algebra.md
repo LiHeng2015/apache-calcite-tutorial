@@ -11,11 +11,13 @@
 |差集|set difference|-
 |更名|rename|ρ (rho)
 |自然连接|Natural join|⋈
-|半链接|Semijoin|⋉/⋊
-|左外链接|Left outer join|⟕
-|右外链接|Right outer join|⟖
-|全链接|Full outer join|⟗
+|半连接|Semijoin|⋉/⋊
+|反连接|Antijoin|▷
 |除| Division|÷
+|左外连接|Left outer join|⟕
+|右外连接|Right outer join|⟖
+|全连接|Full outer join|⟗
+
 
 
 
