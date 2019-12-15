@@ -18,7 +18,7 @@
 |左外连接|Left outer join|⟕|left outer join
 |右外连接|Right outer join|⟖|right outer join
 |全连接|Full outer join|⟗|full outer join
-|聚合函数|Aggregation function|G|sum count min max average
+|聚合函数|Aggregation function|G|group by
 
 
 
