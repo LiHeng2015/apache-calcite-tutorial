@@ -8,8 +8,8 @@
 |投影|projection|Π (PI大写)|select
 |笛卡尔积|Cartesian Product|×|cross join
 |并集|union|∪|union
-|交集|union|∩|intersect
 |差集|set difference|-|except
+|交集|union|∩|intersect
 |更名|rename|ρ (rho)|as
 |自然连接|Natural join|⋈|natural join
 |半连接|Semijoin|⋉/⋊|
