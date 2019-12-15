@@ -2,21 +2,23 @@
 [关系代数](https://zh.wikipedia.org/wiki/%E5%85%B3%E7%B3%BB%E4%BB%A3%E6%95%B0_%28%E6%95%B0%E6%8D%AE%E5%BA%93%29)
 [relational algebra](https://en.wikipedia.org/wiki/Relational_algebra)
 
-|名称|英文|标识|
-|--|--|--|
-|选择|selection|σ (sigma)
-|投影|projection|Π (PI大写)
-|笛卡尔积|Cartesian Product|×
-|并集|union|∪
-|差集|set difference|-
-|更名|rename|ρ (rho)
-|自然连接|Natural join|⋈
-|半连接|Semijoin|⋉/⋊
-|反连接|Antijoin|▷
-|除| Division|÷
-|左外连接|Left outer join|⟕
-|右外连接|Right outer join|⟖
-|全连接|Full outer join|⟗
+|名称|英文|标识|对应SQL
+|--|--|--|--|
+|选择|selection|σ (sigma)|where
+|投影|projection|Π (PI大写)|select
+|笛卡尔积|Cartesian Product|×|cross join
+|并集|union|∪|union
+|交集|union|∩|intersect
+|差集|set difference|-|except
+|更名|rename|ρ (rho)|as
+|自然连接|Natural join|⋈|natural join
+|半连接|Semijoin|⋉/⋊|
+|反连接|Antijoin|▷|
+|除| Division|÷|
+|左外连接|Left outer join|⟕|left outer join
+|右外连接|Right outer join|⟖|right outer join
+|全连接|Full outer join|⟗|full outer join
+|聚合函数|Aggregation function|G|sum count min max average
 
 
 
