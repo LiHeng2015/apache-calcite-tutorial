@@ -64,7 +64,7 @@ select * from S where S.b = 2 and S.a = 1
 where A.a = B.b and B.b = C.c 可以合并为={A.a,B.b,C.c} 而不是两个等式={A.a,B.b}和={B.b,C.c}
 ```
 
-* 析取:：分解它们使得其成员选择可被移动或单独优化, 等价于选择的并集。
+* 析取：分解它们使得其成员选择可被移动或单独优化, 等价于选择的并集。
 
 ```
 where A.a=3 OR A.b>8 
